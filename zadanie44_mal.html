@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Malinowski Adam 3G</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div style="color:pink; font-size:50px;">
+    <script language="JavaScript">
+      var nazwisko_mal = "Malinowski";  
+      var imie_mal = "Adam";  
+      var liczba_liter_nazwiska_mal = nazwisko_mal.length;  
+      var Ile_razy_wyświetlić_mal = 17;  
+      var Wielkość_liter_mal = 50;  
+      document.write("Ilość wykonania pętli = " + Ile_razy_wyświetlić_mal+"<br>");  
+      document.write("Wielkość liter = " + Wielkość_liter_mal + "px"+"<br>");
+      for (var i_mal = 0; i_mal < Ile_razy_wyświetlić_mal; i_mal++) {
+          if (i_mal % 2 === 0) {
+              document.write(nazwisko_mal+"<br>");
+          } else {
+              document.write(imie_mal+"<br>");
+          }
+      }  
+    </script>
+  </div>
+</body>
+</html>

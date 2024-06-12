@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adam malinowski 3G</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div style="color:pink; font-size:50px;">
+    <script language="JavaScript">
+      var wczytanaLiczba = prompt("Podaj liczbę:");
+      var ile_razy_wyświetlić_mal = 17;
+      var wielkość_liter_mal = 50;
+      document.write("Ilość wykonania pętli = " + ile_razy_wyświetlić_mal + "<br>");  
+      document.write("Wielkość liter = " + wielkość_liter_mal + "px" + "<br>");
+      if (wczytanaLiczba % 2 === 0) {
+        for (i_mal = 0; i_mal < ile_razy_wyświetlić_mal; i_mal++) {
+          document.write('<font color="purple" style="font-size: ' + wielkość_liter_mal + 'px;">Malinowski</font><br>');
+        }
+      } else {
+        for (i = 0; i < ile_razy_wyświetlić_mal; i++) {
+          document.write('<font color="yellow" style="font-size: ' + wielkość_liter_mal + 'px;">Adam</font><br>');
+        }
+      }
+    </script>
+  </div>
+</body>
+</html>

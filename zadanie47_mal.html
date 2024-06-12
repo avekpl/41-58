@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adam Malinowski 3G</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div style="color:pink; font-size:50px;">
+    <script language="JavaScript">
+var a_mal, b_mal, c_mal;
+do {
+    a_mal = parseFloat(prompt("Podaj dlugosc boku a:"));
+    b_mal = parseFloat(prompt("Podaj dlugosc boku b:"));
+    c_mal = parseFloat(prompt("Podaj dlugosc boku c:"));
+
+    while (!(a_mal > 0 && b_mal > 0 && c_mal > 0 && a_mal + b_mal > c_mal && a_mal + c_mal > b_mal && c_mal + b_mal > a_mal)) {
+        alert("Podane wartosci nie tworza trojkata. Podaj inne liczby.");
+
+        a_mal = parseFloat(prompt("Podaj dlugosc boku a:"));
+        b_mal = parseFloat(prompt("Podaj dlugosc boku b:"));
+        c_mal = parseFloat(prompt("Podaj dlugosc boku c:"));
+    }
+    document.write("Podane wartosci tworza trojkat.");
+} while (false);
+</script>
+
+  </div>
+</body>
+</html>

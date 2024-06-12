@@ -1,0 +1,26 @@
+<TD><br><b>Kod od malinowskiego:</b><br> <textarea cols="60" rows="20">
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sprawdzenie Malinwoski Adam 3G</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <div style="color:pink;font-size:50px;">
+    <script language="JavaScript">
+      do {
+        var liczba1 = prompt("Podaj wysokosc=", "");
+        var h_mal = parseFloat(liczba1);
+      } while (h_mal <= 0);
+      do {
+        var liczba2 = prompt("Podaj podstawe=", "");
+        var a_mal = parseFloat(liczba2);
+      } while (!(a_mal > 0));
+      var Pole = a_mal * h_mal / 2;
+      document.write("Pole=" + Pole.toFixed(2) + " cm^2" + "<br>");
+    </script>
+  </div>
+</body>
+</html>
+</textarea>
+</TD>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adam Malinowski 3G</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<div style="color:pink;font-size:50px;">
+  <script>
+    var liczba_mal = prompt("Podaj liczbe: ");
+    var silnia_mal = 1;
+    if (liczba_mal == 0) {
+        document.write("0! = 1");
+    } else {
+        for (var i_mal = 1; i_mal <= liczba_mal; i_mal++) {
+            silnia_mal *= i_mal;
+        }
+        document.write(liczba_mal + "! = " + silnia_mal);
+    }
+  </script>
+</body>
+</html>

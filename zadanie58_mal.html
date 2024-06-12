@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head> 
+ <meta charset="utf-8">
+ <title> wlasnosci liczb Malinowski Adam 3G </title>
+</head>
+<body>
+<div>
+ <script language="JavaScript">
+var x_mal=prompt("Podaj pierwszą liczbę=","");
+var liczba1_mal=parseInt(x_mal);
+var y_mal=prompt("Podaj drugą liczbę=","");
+var liczba2_mal=parseInt(y_mal);
+if(liczba1_mal < liczba2_mal){
+  document.write("<p style=\"font-size:50px; color: purple;\">Liczby nieparzyste od "+liczba1_mal+" do "+liczba2_mal+":<br>");
+  for(var i_mal=liczba1_mal;i_mal<=liczba2_mal;i_mal++){
+    if(i_mal%2==1){
+      document.write(i_mal+"<br>");
+    }
+  }
+}
+if(liczba1_mal > liczba2_mal){
+  document.write("<p style=\"font-size:25px; color: yellow;\">Liczby nieparzyste od "+liczba1_mal+" do "+liczba2_mal+":<br>");
+  for(var i_mal=liczba1_mal;i_mal>=liczba2_mal;i_mal--){
+    if(i_mal%2==1){
+      document.write(i_mal+"<br>");
+    }
+  }
+}
+if(liczba1_mal==liczba2_mal){
+  confirm("Brak obliczeń");
+  document.write("Uruchom zadanie ponownie");
+}
+ </script>
+</div>
+</body> 
+</html>
